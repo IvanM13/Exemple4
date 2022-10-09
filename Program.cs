@@ -1,13 +1,27 @@
-﻿int a = 5;
-int b = 3;
-int c = 4;
-if ((a + b + c > 10) || (a == b))
-{
-    Console.WriteLine("The answer is greater than 10");
-    Console.WriteLine("Or the first number is equal to the second");
-}
+﻿Console.WriteLine ("Введите первое число");
+string firstNumber = Console.ReadLine ();
+
+Console.WriteLine ("Введите второе число");
+string secondNumber = Console.ReadLine ();
+
+Console.WriteLine ("Введите третье число");
+string thirdNumber = Console.ReadLine ();
+
+int firstNum = int.Parse(firstNumber);
+int secondNum = int.Parse(secondNumber);
+int thirdNum = int.Parse(thirdNumber);
+
+if (firstNum>secondNum)
+
+if (firstNum>thirdNum)
+Console.WriteLine ($"{firstNum}");
 else
-{
-    Console.WriteLine("The answer is not greater than 10");
-    Console.WriteLine("And the first number is not equal to the second");
-}
+Console.WriteLine ($"{thirdNum}");
+
+else
+if
+
+(firstNum>thirdNum)
+Console.WriteLine ($"{firstNum}");
+else
+Console.WriteLine ($"{thirdNum}");
