@@ -11,17 +11,20 @@ int firstNum = int.Parse(firstNumber);
 int secondNum = int.Parse(secondNumber);
 int thirdNum = int.Parse(thirdNumber);
 
-if (firstNum>secondNum)
+if (firstNum > secondNum)
 
-if (firstNum>thirdNum)
-Console.WriteLine ($"{firstNum}");
-else
-Console.WriteLine ($"{thirdNum}");
+if (firstNum > thirdNum)
+    Console.WriteLine ($"max = {firstNum}");
 
-else
-if
+if (secondNum > firstNum)
 
-(firstNum>thirdNum)
-Console.WriteLine ($"{firstNum}");
-else
-Console.WriteLine ($"{thirdNum}");
+if (secondNum > thirdNum)
+    Console.WriteLine ($"max = {secondNum}");
+
+if (thirdNum > firstNum)
+
+if (thirdNum > secondNum)
+    Console.WriteLine ($"max = {thirdNum} ");
+  
+   
+
