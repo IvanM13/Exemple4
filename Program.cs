@@ -15,17 +15,11 @@ if (firstNum > secondNum)
 
 if (firstNum > thirdNum)
     Console.WriteLine ($"max = {firstNum}");
-    
-else
-    Console.WriteLine($"YOU WIN!");
 
 if (secondNum > firstNum)
 
 if (secondNum > thirdNum)
     Console.WriteLine ($"max = {secondNum}");
-
-else
-    Console.WriteLine($"YOU WIN!");
 
 if (thirdNum > firstNum)
 
