@@ -19,7 +19,7 @@ if (secondNum > max) max = secondNum;
 
 if (thirdNum > max) max = thirdNum;
 
-Console.Write("max = ");
+Console.Write("max -> ");
 Console.WriteLine(max);
 
 
